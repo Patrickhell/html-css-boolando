@@ -16,3 +16,15 @@ header{
     display: flex;
     flex-direction: row;
 }
+.position-relative{
+    position: relative;
+}
+.bg-rosso{
+    background-color:#ff0000 ;
+}
+.bg-verde{
+    background-color: #017f00;
+}
+.bg-nero{
+    background-color: #1a1a1a;
+}
