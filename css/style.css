@@ -35,6 +35,9 @@ header{
 main > section{
     padding: 2rem 0;
 }
+footer{
+    height: 100px;
+}
 
 .logo{
     width: 20%;
@@ -52,7 +55,7 @@ main > section{
 .nav-bar{
     justify-content: space-between;
 }
-.spazio-genere{
+.margin-text{
     margin-right: 10px;
 }
 img{
@@ -66,4 +69,29 @@ div.colona{
     width: (calc(100% / 3) - 400px);
     padding: .5rem;
 } 
-div
+
+
+
+
+
+.font{
+    font-size: 13px;
+}
+.margin-top{
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: none;
+}
+.sottotitolo-testo{
+    justify-content: space-between;
+   padding-top: 20px;
+}
+
+.icone-social{
+    width: 140px;
+}
+
+
+
