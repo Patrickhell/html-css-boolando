@@ -9,8 +9,9 @@
 }
 
 header{
-    height: 100px;
+    height: 80px;
     background-color:#ff6900 ;
+    
 }
 .flex{
     display: flex;
@@ -19,12 +20,35 @@ header{
 .position-relative{
     position: relative;
 }
-.bg-rosso{
+.color-rosso{
     background-color:#ff0000 ;
 }
-.bg-verde{
+.color-verde{
     background-color: #017f00;
 }
-.bg-nero{
+.color-nero{
     background-color: #1a1a1a;
+}
+.color-white{
+    color: white;
+}
+
+.logo{
+    width: 20%;
+    margin-top: 30px; 
+   
+}
+
+.genere{
+    width: 30%;
+    margin-top:30px ;
+    margin-left: 20px;
+    font-size: 18px;
+    
+}
+.nav-bar{
+    justify-content: space-between;
+}
+.spazio-genere{
+    margin-right: 10px;
 }
