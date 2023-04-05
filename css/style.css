@@ -32,6 +32,9 @@ header{
 .color-white{
     color: white;
 }
+main > section{
+    padding: 2rem 0;
+}
 
 .logo{
     width: 20%;
@@ -51,4 +54,11 @@ header{
 }
 .spazio-genere{
     margin-right: 10px;
+}
+img{
+    width: 400px;
+    
+}
+div.colona{
+    width: (calc(100% / 3) - 400px);
 }
