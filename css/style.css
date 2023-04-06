@@ -3,25 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Roboto', sans-serif;
 }
+
 .container{
     max-width: 900px;
     margin: 0 auto;
 }
 
+
 header{
     background-color:#ff6900 ; 
     height: 60px;
     width: 100%;
-    
 }
 
 div.nav-bar{
     justify-content: space-between; 
-    
 }
+
 div h3{
     color: white;
     display: block;
@@ -42,24 +44,29 @@ div h3{
     background-color:#ff0000 ;
     width: 30px;
 }
+
 .color-rosso{
     color: #ff0000;
     
 }
+
 .bg-verde{
     background-color: #017f00;
     width: 90px;
-    
 }
+
 .bg-nero{
     background-color: black ;
 }
+
 .color-white{
     color: white;
 }
+
 .bg-white{
     background-color: white;
 }
+
 main > section{
     padding: 2rem 0;
 }
@@ -71,31 +78,41 @@ main > section{
 }
 
 img{
-    width: 300px;
-       
+    width: 300px;   
 }
+
+.img2{
+    display: none;
+}
+
+.colona:hover .img2{
+    display: block;
+}
+
 div.colona{
     position: relative;
     width: (calc(100% / 3) - 300px);
     padding: 1rem ;
 } 
+
 div.colona span.sconto{
     font-size: 12px;
     height: 20px;
     padding: 3px 0 0 2px;
-   
 }
+
 .absolute{
     position: absolute;
     bottom: 20%;
     left: 5%;
 }
+
 div.colona span.eco{
     left: 15%;
     height: 20px;
     font-size: 15px;
- 
 }
+
 .text-green{
     position: absolute;
     bottom: 20%;
@@ -104,12 +121,14 @@ div.colona span.eco{
     font-size: 13px;
     padding: 2px 0 0 10px ; 
 }
+
 .margin-padding{
     left: 18px;
     padding: 2px 0 0 10px ; 
     font-size: 13px;
 height: 20px;
 }
+
 div span.cuore{
     position: absolute;
     top: 5%;
@@ -118,6 +137,7 @@ div span.cuore{
     height: 30px;
     padding: 3px 0 0 10px;
 }
+
 .no-sconto{
     text-decoration:line-through;
 }
@@ -125,12 +145,15 @@ div span.cuore{
 .font{
     font-size: 13px;
 }
+
 .font-wear{
     font-size: 15px;
 }
+
 .margin-top{
     margin-top: 10px;
 }
+
 footer{
     height: 100px; 
 }
@@ -138,6 +161,7 @@ footer{
 ul{
     list-style-type: none;
 }
+
 .sottotitolo-testo{
     justify-content: space-between;
    padding-top: 20px;
