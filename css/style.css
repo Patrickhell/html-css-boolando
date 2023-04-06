@@ -135,7 +135,7 @@ div.colona span.eco{
 }
 
 .margin-padding{
-    left: 18px;
+    left: 17px;
     padding: 2px 0 0 10px ; 
     font-size: 13px;
 height: 20px;
@@ -181,6 +181,12 @@ ul{
 
 .icone-social{
     width: 140px;
+}
+div p.invito{
+    margin-left: 10px;
+}
+ul li.margin-text{
+    margin-right: 10px;
 }
 
 
