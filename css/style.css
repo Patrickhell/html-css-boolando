@@ -8,45 +8,37 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 header{
-    padding-bottom: 4rem;
+    background-color:#FF7700 ;
+    width: 100%;
+ 
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
 div.nav-bar{
-    background-color:#FF7700 ; 
     justify-content: space-between; 
     width: 100%;
-    height: 60px;
-    
-   
 }
 
+
 .logo{
-    width: 20%;
+    width: 30%;
+    margin-left: 85%;
     margin-top: 20px;
-    margin-left: 40%;
-   
 }
 
 div.icons{
-    width: 40%;
-    height: 50px;
-    padding-left: 4%;
-      
+    width: 30%;
+    margin-left: 35%;
 }
 
-.genere{
-    width: 40%;
-    padding-left: 27%;
-}
+
 div img.icon-shopping{
     width: 50px;
     padding: 18px;
-    
 }
 
 div h3{
@@ -56,6 +48,7 @@ div h3{
     font-size: 15px;
     margin-left: 10px;
 }
+
 .fixed{
     position: fixed;
     top: 0;
@@ -63,7 +56,6 @@ div h3{
     left: 0;
     z-index: 1;
 }
-
 
 .flex{
     display: flex;
@@ -98,17 +90,18 @@ div h3{
 }
 
 main > section{
-    padding: 2rem 0;
+    padding: 3rem 0;
+}
+main{
+    padding-top: 3rem;
 }
 
 img{
     width: 300px;  
-   
 }
 
 .img2{
     display: none;
-  
 }
 
 .colona:hover .img2{
@@ -182,6 +175,7 @@ div span.cuore{
 
 footer{
     height: 100px; 
+    max-width: 100%;
 }
 
 ul{
@@ -191,21 +185,21 @@ ul{
 .sottotitolo-testo{
     justify-content: space-between;
    padding-top: 20px;
-   width: 80%;
-   
+   width: 100%;
 }
-.sottotitolo{
-    padding-left: 34%;
-}
+
+.invito-social{
+padding-right: 20px;
+ }
+
 
 .icone-social{
-    width: 140px;
-    padding-right: 35px;
-    
+width: 100px;
+
 }
 
-ul li.margin-text{
-    margin-right: 10px;
+.margin-left{
+    margin-left: 10px;
 }
 
 
