@@ -105,8 +105,13 @@ img{
 }
 
 .colona:hover .img2{
-    display: block;
+    display: inline-block;
 }
+
+.colona:hover .img{
+    display: none;
+}
+
 
 div.colona{
     position: relative;
